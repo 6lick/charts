@@ -32,3 +32,4 @@ data:
   ORDERER_GENERAL_TLS_CLIENTROOTCAS: "/var/hyperledger/tls/client/cert/*"
   GODEBUG: "netdns=go"
   ADMIN_MSP_PATH: /var/hyperledger/admin_msp
+  FABRIC_LOGGING_SPEC: "DEBUG"
