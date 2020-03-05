@@ -33,3 +33,9 @@ data:
   GODEBUG: "netdns=go"
   ADMIN_MSP_PATH: /var/hyperledger/admin_msp
   FABRIC_LOGGING_SPEC: "DEBUG"
+  #GODEBUG: "http2debug=2"
+
+
+  ORDERER_GENERAL_CLUSTER_CLIENTCERTIFICATE: "/var/hyperledger/tls/server/pair/tls.crt"
+  ORDERER_GENERAL_CLUSTER_CLIENTPRIVATEKEY: "/var/hyperledger/tls/server/pair/tls.key"
+  ORDERER_GENERAL_CLUSTER_ROOTCAS: "/var/hyperledger/tls/server/cert/cacert.pem"
